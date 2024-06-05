@@ -1,0 +1,37 @@
+body{
+    background-color: #123e4b; /* Cor do plano de fundo */
+    color:#ff2929; /* Cor da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 0; /* Não tenho margem em relação a tela */
+
+}/* Comentários */
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+}/* Seletor do Cabeçalho */
+
+li{
+    color: #fff;
+    list-style-type: none;/* Remover as bolinhas de tópicos */
+    display: inline; /* Tranformar coluna em linha */
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+
+li:hover{ /* Modifica o conteudo original da Tag */
+    background-color: #444;
+    font-size: 30px;
+    font-family:'Trebuchet MS'; /* Definir uma fonte */
+    border: 10px solid #888;
+}
+
+.titulo{
+    border: 2px solid #667;
+}/* Chamando a classe */
+
+aside{
+    background-image: url("../IMAGENS/Wallpaper.jpeg");
+    background-repeat: no-repeat;
+}
